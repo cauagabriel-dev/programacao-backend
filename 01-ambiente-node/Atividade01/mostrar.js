@@ -11,21 +11,30 @@ console.log("Titulo: " + estante.livro1.titulo);
 console.log("Autor: " + estante.livro1.autor);
 console.log("Preco: R$ " + estante.livro1.preco);
 console.log("Estoque: " + estante.livro1.estoque + " unidades");
-console.log("");
 
-// ===== LIVRO 2 — complete as 3 lacunas =====
+console.log("-----------------------------------");
+
+// ===== LIVRO 2
 console.log("Titulo: " + estante.livro2.titulo);
-
-// LACUNA 1 → troque _____ pelo nome do objeto do segundo livro
 console.log("Autor: " + estante.livro2.autor);
-
-// LACUNA 2 → troque _____ pelo nome da propriedade do preço
 console.log("Preco: R$ " + estante.livro2.preco);
-
-// LACUNA 3 → copie aqui a linha do "Estoque:" do Livro 1
-// e troque livro1 por livro2
-
 console.log("Estoque: " + estante.livro2.estoque + " unidades");
 
+console.log("-----------------------------------");
+
+console.log("Titulo: " + estante.livro3.titulo);
+console.log("Autor: " + estante.livro3.autor);
+console.log("Preco: R$ " + estante.livro3.preco);
+console.log("Estoque: " + estante.livro3.estoque + " unidades");
+
 console.log("");
+
+// ITEM C DA PARTE EXTRA: Total de unidades dos dois primeiros livros
+console.log("Total de unidades: " + (estante.livro1.estoque + estante.livro2.estoque));
+
+// ITEM D - Quanto vale o estoque do Livro 1
+console.log("Valor em estoque do livro 1: R$ " + (estante.livro1.preco * estante.livro1.estoque));
+
+console.log("");
+
 console.log("===================================");

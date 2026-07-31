@@ -7,6 +7,8 @@ const livro1 = {
   estoque: 12,
 };
 
+console.log("-----------------------------------");
+
 // ===== LIVRO 2 — TROQUE os quatro valores abaixo =====
 const livro2 = {
   titulo: "Memórias Póstumas de Brás Cubas",
@@ -15,5 +17,14 @@ const livro2 = {
   estoque: 120,
 };
 
+console.log("-----------------------------------");
+
+const livro3 = {
+  titulo: "O Pequeno Príncipe",
+  autor: "Antoine de Saint-Exupéry",
+  preco: 30.0,
+  estoque: 80,
+};
+
 // Esta linha entrega os dois livros para os outros arquivos usarem
-module.exports = { livro1, livro2 };
+module.exports = { livro1, livro2, livro3 };
