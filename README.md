@@ -14,6 +14,7 @@ Curso Técnico em Desenvolvimento de Sistemas — Escola SENAI "Santo Paschoal C
 | --- | --- | --- |
 | 01 | [Ambiente Node](./01-ambiente-node) | Módulos, objetos e primeiro script |
 | 02 | [POO: classes](./02-poo-classes) | Classes, métodos e encapsulamento |
+| 03 | [POO: Herança e Polimorfismo](./03-heranca-polimorfismo) | Herança (`extends`, `super()`), sobrescrita de métodos e polimorfismo |
 
 ## Projeto do semestre
 API de Gestão da Livraria — desenvolvida em grupo
