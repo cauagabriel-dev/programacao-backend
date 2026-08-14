@@ -12,6 +12,7 @@ para listar itens e calcular o total. Revisão das classes com principios de cle
 - Nomes claros, responsabilidade unica, metodos pequenos e evitar numeros magicos
 
 ## UML
+```text
 ┌───────────────────────────┐
 │         Categoria         │
 ├───────────────────────────┤
@@ -53,8 +54,3 @@ para listar itens e calcular o total. Revisão das classes com principios de cle
 │ + listar()                │
 │ + calcularTotal()         │
 └───────────────────────────┘
-
-## Como executar
-```bash
-node testar.js
-```
